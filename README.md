@@ -4,10 +4,10 @@ Este proyecto es una maquetación de una página web para una tienda virtual de 
 ## Contenido
 La página web consta de las siguientes secciones:
 * Inicio: Esta sección presenta una vista general de los productos de la tienda y ofrece un acceso fácil a la navegación.
-* Nosotros: Esta sección describe la empresa, su misión y su historia.
-* Blog: Esta sección ofrece artículos relacionados con la decoración de interiores y consejos para la selección de muebles.
-* Galería: Esta sección presenta fotos de los productos de la tienda, organizados por categorías.
-* Contacto: Esta sección proporciona información de contacto para la empresa y un formulario de contacto para preguntas o solicitudes.
+* Tendencias: Esta sección estan las fragancias y perfumes del momento.
+* Fragancias Masculinas: Esta sección presenta fotos de los productos de la tienda, organizados por categorías.
+* Fragancias Femeninas: Esta sección presenta fotos de los productos de la tienda, organizados por categorías.
+* Fragancias árabes: Esta sección presenta fotos de los productos de la tienda, organizados por categorías.
 
 ## Instalación
 Para ejecutar este proyecto en tu máquina local, sigue estos pasos:
