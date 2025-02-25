@@ -1,0 +1,316 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PARFUMARTE</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+    
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@400;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/app.css">
+    <link rel="icon" href="img/logoo.png" type="image/x-icon">
+
+    <head>
+        <title>PARFUMARTE</title>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+        <style>
+          body {
+            font-family; /* Fuente llamativa */
+            font-weight: bold;
+            font-size: medium;
+        }
+        
+
+        .contenedor{
+            height: 100px;
+            width: 100px;
+        }
+
+        .titulo-principal {
+          font-family:; /* Fuente llamativa */
+          font-size: 2em; /* Tamaño grande */
+  color: #0d0d0d; /* Color oscuro */
+  text-align: center; /* Centrado */
+  text-shadow: 2px 2px 4px #777674; /* Sombra */
+}
+
+#titulo-color{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a{
+    color:white;
+}
+
+a:hover{
+    color:#ffe836;
+
+}
+
+#whatsapp-button {
+  animation: pulso 1.5s infinite ease-in-out;
+}
+
+@keyframes pulso {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 0.7;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+    #whatsapp-button img {
+      width: 80px;
+      height: 80px;
+    }
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+footer {
+          background-image: url(img/Designer.jpeg);
+          color: #fff;
+          padding: 20px;
+          text-align: center;
+        }
+        .container {
+          max-width: 960px;
+          margin: 0 auto;
+        }
+        footer ul {
+          list-style: none;
+          padding: 0;
+        }
+        footer li {
+          display: inline;
+          margin: 0 10px;
+        }
+        footer a {
+          color: #fff;
+          text-decoration: none;
+          border-radius: 10%;
+        }
+
+        .logo-whatsapp {
+  display: inline-block; /* Para que el enlace se comporte como un elemento en línea */
+}
+
+.logo-whatsapp img {
+  width: 50px; /* Ajusta el tamaño del logo */
+  height: auto;
+}
+
+.slider-container {
+    width: 100%;
+    max-width: 100%;
+    margin:auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+}
+
+.slide img {
+    width: 100%;
+    display: block;
+}
+
+@media (max-width: 600px) {
+    .slider-container {
+        width: 95%;
+    }
+}
+
+
+    </style>
+</head>
+
+<body>
+
+
+    <div class="nav-container">
+        
+        <nav class="nav-principal container">
+            <div class="contenedor"><img src="img/logoo.png" alt=""></div>
+            <a href="https://wa.me/+573158010131?text=Hola, Estoy interesado en tus fragancias ..." target="_blank" id="whatsapp-button">
+              <img src="img/WHATSAPP.png" alt="WhatsApp">
+            </a>
+
+            <a href="index.html">Inicio</a>
+            <a href="about.html"> Tendencias</a>
+            <a href="gallery.html"> Masculinas</a>
+            <a href="gallery1.html"> Femeninas</a>
+            <a href="gallery2.html"> Árabes</a>
+
+        </nav>
+    </div>
+
+    <div class="slider-container">
+      <div class="slider">
+          <div class="slide">
+              <img src="img/fondo1.jpeg" alt="Imagen 1">
+          </div>
+          <div class="slide">
+              <img src="img/fondo2.jpeg" alt="Imagen 2">
+          </div>
+          <div class="slide">
+              <img src="img/fondo3.jpeg" alt="Imagen 3">
+          </div>
+      </div>
+  </div>
+
+    
+
+    
+
+    <section class="container categories">
+      
+         <h1 class="titulo-principal">OBSERVA NUESTROS CATÁLOGOS VIRTUALES<span></span> </h1>
+
+
+
+        <div class="category-list">
+            <div class="category">
+                <a href="gallery2.html">
+                    <img src="img/kitdeperfumesarabesparapapa.webp" alt="TEXTO_ALTERNATIVO" width="300px" height="250px">
+                    <H1 class="titulo-principal" href="#">ÁRABES</H1>
+
+                  </a>
+            </div>
+            <div class="category">
+                <a href="gallery.html">
+                    <img src="img/PERFUMESMASCULINOS.jpg" alt="TEXTO_ALTERNATIVO" width="300px" height="250px">
+                    <H1 class="titulo-principal" href="#">MASCULINAS</H1>
+
+                  </a>
+            </div>
+            <div class="category">
+                <a href="gallery1.html">
+                    <img src="img/PERFUMESMUJER.jpg" alt="TEXTO_ALTERNATIVO" width="300px" height="250px">
+                    <H1 class="titulo-principal" href="#">FEMENINAS</H1>
+
+                  </a>
+            </div>
+        </div>
+        <section class="container categories">
+          <h1 class="titulo-principal">PRESENTACIONES DE UNA, DOS Y TRES ONZAS.<span>
+            <h1 id="titulo-color">100% GARANTIZADOS</h1>
+
+             
+<BR></BR>  
+            <div class="category-list">
+                <div class="category">
+                    <img src="img/stoc33.png" alt="locion1" >
+                </div>
+                <div class="category">
+                    <img src="img/stoc34.png" alt="locion2">
+                </div>
+                <div class="category">
+                    <img src="img/stoc35.png" alt="locion3">
+                </div>
+               
+            </div>
+        </section>
+
+       
+    </section>
+
+
+   
+
+      <style>
+
+
+      
+      
+      </style>
+    
+    <footer>
+      <div class="container">
+        <a href="https://www.facebook.com/people/Parfumarte-ibague/61572208946549/?rdid=aq9scbMWCCDJmx2X&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1935dVs64Z%2F" target="_blank" class="logo-whatsapp">
+          <img src="img/facebook.png" alt="Logo de WhatsApp">
+        </a>
+    
+        <a href="https://www.facebook.com/TuPaginaDeFacebook" target="_blank" class="logo-whatsapp">
+          <img src="img/insta.png" alt="Logo de WhatsApp">
+        </a>
+        <ul>
+        
+    
+       
+          <li><a href="https://wa.me/+573158010131?text=Hola, Estoy interesado en tus fragancias ...">Ubicación</a></li>
+          <br></br>
+          <p>&copy; 2025 PARFUMARTE
+            <br></br>
+
+            <p>Todos los derechos reservados.</p>
+    
+        </ul>
+      </div>
+    </footer>
+    </body>
+<script>
+   const slider = document.querySelector('.slider');
+const slides = document.querySelectorAll('.slide');
+let index = 0;
+
+function moveSlider() {
+    slider.style.transform = `translateX(-${index * 100}%)`;
+}
+
+function nextSlide() {
+    index = (index + 1) % slides.length;
+    moveSlider();
+}
+
+setInterval(nextSlide, 3000); // Cambia de slide cada 3 segundos
+    
+    function updateSlider() {
+        slider.style.transform = `translateX(-${currentIndex * 100}%)`;
+    }
+    
+    const tituloColor = document.getElementById('titulo-color');
+const colores = ['red', 'blue', 'green', 'orange', 'purple'];
+let colorIndex = 0;
+
+function cambiarColor() {
+  tituloColor.style.color = colores[colorIndex];
+  colorIndex = (colorIndex + 1) % colores.length;
+}
+
+setInterval(cambiarColor, 1000); 
+
+// Cambia de color cada segundo
+
+    
+  </script>
+    </html>
+</body>
+
+</html>
