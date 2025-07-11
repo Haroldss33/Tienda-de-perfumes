@@ -1,4 +1,4 @@
-# Tienda Virtual de Muebles
+# Tienda Virtual de lociones
 Este proyecto es una maquetación de una página web para una tienda virtual de muebles. Utiliza HTML y CSS para crear una interfaz de usuario atractiva y fácil de usar.
 
 ## Contenido
@@ -15,7 +15,7 @@ Para ejecutar este proyecto en tu máquina local, sigue estos pasos:
 2. Abre el archivo index.html en tu navegador web.
 
 ## Uso
-La página web es fácil de navegar y de utilizar. La navegación se encuentra en la parte superior de la página y permite acceder a todas las secciones de la página. El usuario puede buscar y filtrar los productos utilizando la barra de búsqueda y los filtros proporcionados en la página de Galería.
+La página web es fácil de navegar y de utilizar. La navegación se encuentra en la parte superior de la página y permite acceder a todas las secciones de la página. El usuario puede buscar  lociones proporcionados en la página de Galería.
 
 Contribución
 Si deseas contribuir a este proyecto, puedes hacerlo siguiendo estos pasos:
@@ -26,7 +26,7 @@ Si deseas contribuir a este proyecto, puedes hacerlo siguiendo estos pasos:
 4. Envía una solicitud de extracción a la rama principal de este repositorio.
 
 ## Créditos
-Este proyecto fue desarrollado por Daniel Alexander Lozano y se basa en los diseños proporcionados por el profesor Juan Torre. 
+Este proyecto fue desarrollado por Harold Steven Sepulveda Atehortúa 
 
 ## Licencia
 Este proyecto se distribuye bajo la Licencia MIT.
